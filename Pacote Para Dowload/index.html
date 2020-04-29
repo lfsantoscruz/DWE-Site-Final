@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>VR Realidade Virtual</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Black Ops One' rel='stylesheet'>
+
+    <meta charset="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <link rel="stylesheet" type="text/css" href="Bootstrap/css/Bootstrap.min.css">
+
+
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+    <style>
+
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: rgba(0,0,0,1);
+        }
+        div#interface{
+                width: 90%;
+            background-color: #ffffff;
+            margin: -20px auto 0px auto;
+            box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+            padding: 10px;
+        }
+        header#cabecalho{
+            display: block;
+
+        }
+
+        header#cabecalho{
+            border-bottom: 1px #000000 solid;
+            background: url("imegens/vr-gif.gif")local 100%;
+
+        }
+        header#cabecalho h1{
+            font-family: sans-serif;
+            font-size: 35px;
+            color: #4F4F4F;
+            text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+            padding: 50px;
+            margin-bottom: 0px;
+        }
+        header#cabecalho h2{
+            font-family: Arial sans-serif;
+            color: #828282;
+            font-size: 20px;
+            padding: 0px;
+            margin-top: 0px;
+        }
+
+
+        h1#titulo{
+            text-align: left;
+            color: #000000;
+            font-family: "Black Ops One";
+            font-size: 22px;
+        }
+        h2#titulo{
+            text-align:left;
+
+        }
+        p{
+            text-align: justify;text-indent: 25%;
+            text-indent: 10%;
+            text-align: left;
+        }
+        a{
+            text-decoration: none;
+        }
+
+        ul#menu{
+            display:block;
+            margin-top: auto;
+        }
+
+        nav#menu{
+            display: block;
+        }
+        nav#menu ul{
+            list-style: none;
+            text-transform: uppercase;
+            text-align: center;
+
+
+        }
+        nav#menu li{
+            display: inline-block;
+            padding: 10px;
+            margin: 1%;
+            transition:  background-color 1s;
+        }
+        nav#menu li:hover {
+            background-color: #A9A9A9;
+
+        }
+        section#corpo{
+            display: block;
+            width: 60%;
+            float:left;
+
+        }
+
+        aside#lateral{
+            display: block;
+            width: 40%;
+            float: right;
+            background-color: #D3D3D3;
+            padding: 10px;
+            margin-top:20px;
+            box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+
+        }
+        aside#lateral h1{
+            font-family: "Black Ops One";
+            font-size: 15px;
+            color: #696969;
+        }
+        aside#lateral h2{
+            background-color: #BEBEBE;
+            font-size: 15px;
+            color: #BEBEBE;
+            padding: 5px;
+        }
+        article#noticia-principal h2{
+            font-size: 12px;
+            color: #000000;
+            background-color:#BEBEBE ;
+            padding: 5px 0px 5px 10px;
+            margin: 10px 0px 10px 0px;
+        }
+        header#cabecalho-artigo h1{
+            font-family: "Black Ops One";
+            font-size: 30px;
+            color: #8c8c8c;
+            margin-bottom: 0px;
+            margin: 0px;
+        }
+        header#cabecalho-artigo h2{
+            font-size: 13px;
+            color:#BEBEBE ;
+            background-color: #ffffff;
+            margin: 0px;
+        }
+        header#cabecalho-artigo h3{
+            font-size: 12px;
+            color: #606060;
+        }
+        h3#direita{
+            text-align: right;
+        }
+        footer#rodape{
+            clear: both;
+            border-top:1px solid #4F4F4F;
+
+        }
+        footer#rodape p{
+            text-align: center;
+        }
+
+
+    </style>
+
+
+
+</head>
+<body>
+     <div class="container">
+
+         <div id="interface">
+
+             <header id="cabecalho">
+
+
+                     <hgrup>
+                     <h1 id="titulo">VR</h1>
+                     <h2 id="sbtitlo">Realidade Virtual</h2>
+                 </hgrup>
+
+                 <nav id="menu">
+
+                     <ul>
+                         <li><a href="Site%20Final%20DWE.html">Home</a></li>
+                         <li><a href="specs.html">Especificações</a></li>
+                         <li><a href="fotos.html">Fotos</a></li>
+                         <li><a href="multimidia.html">Multimidias</a></li>
+                         <li><a href="contato.html">Contatos</a></li>
+                     </ul>
+
+                 </nav>
+
+             </header>
+             <section id="corpo">
+               <article id="noticia-principal">
+                   <header id="cabecalho-artigo">
+              <hgrup>
+                    <h3>Tecnologia e &nbsp;Inovação</h3>
+                    <h1>Saiba tudo sobre o VR Realidade Virtual</h1>
+                    <h2>Por Luis Fernando Cruz</h2>
+                    <h3 id="direita">Atualizado em 24/Junho/2017</h3>
+              </hgrup>
+                   </header>
+
+            <h2> O que é</h2>
+           <p><b><i>VR</i></b> é uma tecnologia capaz de nos enganar utilizando de uma interface estereoscópica, que é a projeção de imagens que usam duas cenas em perspectivas diferentes e ao olhá-las separadamente em cada olho com a ajuda de óculos com lentes biconvexas o cérebro as funde através do nosso cortex visual e nesse processo o o usuário obtêm informações sobre profundidade, distância, tamanho e posição dos objetos. Basicamente a Realidade virtual te insre em um mundo fictício criado sob uma ilusão.</p>
+
+
+
+
+            <h2>Data de Lançamento</h2>
+
+             <p>A <b><i><a href="https://www.playstation.com/pt-pt/explore/playstation-vr/" target="_blank">Sony</a></i></b> confirmou nesta terça-feira (15) o preço e o lançamento do <b><i>PlayStation VR</i></b>, óculos de realidade virtual para PS4. O dispositivo vai chegar ao mercado em outubro de 2016 com preço de US$ 399 a unidade (R$ 1.500, em conversão direta). Apesar de só funcionar no console de videogame da fabricante, o valor é mais baixo que o HTC Vive, que custará US$ 799 (R$ 3.000), e o Oculus Rift, de US$ 599 (R$ 2.250).</p>
+
+            <h2> PlayStation VR estará no Brasil Game Show</h2>
+
+            <p> Pela primeira vez os brasileiros poderão testar o <b><i>PlayStation VR</i></b>, óculos de realidade virtual para PlayStation 4. Será no Brasil Game Show 2016, feira de games que acontece em São Paulo entre os dias 13 e 14 de 2016.</p>
+               </article>
+                 <div id="myCarousel" class="carousel slide">
+
+                     <ol class = "carousel-indicators">
+                         <li data-target = "#myCarousel" data-slide-to = "0" class = "active"></li>
+                         <li data-target = "#myCarousel" data-slide-to = "1" class="active"></li>
+                         <li data-target = "#myCarousel" data-slide-to = "2" class="active"></li>
+                         <li data-target = "#myCarousel" data-slide-to = "3" class="active"></li>
+                         <li data-target = "#myCarousel" data-slide-to = "4" class="active"></li>
+                     </ol>
+
+                     <div class="carousel-inner">
+
+                         <div class="item active">
+                             <img src="imegens/vr-celular-carousel.png" alt="vr" class="img-responsive">
+
+                         </div>
+
+                         <div class="item">
+                             <img src="imegens/VR-carousel.jpg" alt="vr" class="img-responsive">
+
+                         </div>
+
+                         <div class="item">
+                             <img src="imegens/vr-ps4-carousel.jpg" alt="vr" class="img-responsive">
+
+                         </div>
+
+                         <div class="item">
+                             <img src="imegens/vr-ps4-controle-carousel.jpg" alt="vr" class="img-responsive">
+
+                         </div>
+
+                         <div class="item">
+                             <img src="imegens/playstation-vr-connections-diagrama.png" alt="vr" class="img-responsive">
+
+                         </div>
+
+                     </div>
+
+                     <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                         <span class="icon-prev"></span>
+                     </a>
+
+                     <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                         <span class="icon-next"></span>
+                     </a>
+
+                 </div>
+             </section>
+
+
+            <aside id="lateral">
+              <h1> Outras Noticias</h1>
+                <div class= "embed-responsive embed-responsive-16by9" >
+
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ij_lCD9k0ic"></iframe>
+                    </div>
+
+                </div>
+              <h3>Video Recente</h3>
+
+             
+              <h1>Novidades do Vr Realidade Virtual</h1>
+               <p> Um dos comerciais de tecnologia mais comentados dos últimos meses recebeu o devido reconhecimento na premiação mais importante do mundo da publicidade. Trata-se do vídeo "Ostrich" ("Avestruz"), da Samsung, que recebeu sete condecorações no recém-encerrado Festival de Cannes.</p>
+
+                <p>A propaganda foi lançada junto com a revelação do Galaxy S8, em março, mas foca nos óculos de realidade virtual Gear VR. Ao todo, foram três medalhas de ouro (em Melhor Direção, Melhor Animação e Melhores Efeitos Visuais), além de duas pratas e dois bronzes.</p><br>
+               <p> Confira o vídeo original abaixo, caso você nunca tenha visto antes:</p>
+
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hjKd24UCPYY"></iframe>
+                </div>
+
+            </aside>
+
+             <footer id="rodape">
+                 <p>Copyrigth &copy;2017 - Por Luis Fernando Cruz </br>
+                     <a>Facebook</a> |<a>Linkedin</a></p>
+             </footer>
+         </div>
+
+     </div>
+
+
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="jquery-3.2.1.min"></script>
+</body>
+</html>
